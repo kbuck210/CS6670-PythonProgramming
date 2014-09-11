@@ -1,0 +1,56 @@
+######################################
+#  CS6670 - Python Programming
+#  Homework 1 - Kevin Buckley
+#  9/10/14
+#
+#  Sample Output:
+######################################
+
+Kevins-MacBook-Air-2:CS670 - Python kbuck$ python3 Homework1_KBuckley.py
+Hello, what is your name? Kevin
+Hi Kevin we're going to play a game!
+Think of a random number 1 to 100, and I will guess it.
+Is your number 50? (y/n): n
+Is your number higher than 50? (y/n): y
+Is your number 75? (y/n): n
+Is your number higher than 75? (y/n): n
+Is your number 63? (y/n): y
+See? I told you I'd guess it! In only 3 tries!
+Would you like to continue playing? (y/n): y
+Hello, what is your name? Liz
+Hi Liz we're going to play a game!
+Think of a random number 1 to 100, and I will guess it.
+Is your number 50? (y/n): n
+Is your number higher than 50? (y/n): n
+Is your number 26? (y/n): n
+Is your number higher than 26? (y/n): y
+Is your number 38? (y/n): n
+Is your number higher than 38? (y/n): y
+Is your number 44? (y/n): n
+Is your number higher than 44? (y/n): y
+Is your number 47? (y/n): n
+Is your number higher than 47? (y/n): y
+Is your number 48? (y/n): y
+See? I told you I'd guess it! In only 6 tries!
+Would you like to continue playing? (y/n): y
+Hello, what is your name? Kevin
+Hi Kevin we're going to play a game!
+Think of a random number 1 to 100, and I will guess it.
+Is your number 50? (y/n): n
+Is your number higher than 50? (y/n): n
+Is your number 26? (y/n): n
+Is your number higher than 26? (y/n): n
+Is your number 14? (y/n): n
+Is your number higher than 14? (y/n): n
+Is your number 8? (y/n): n
+Is your number higher than 8? (y/n): n
+Is your number 5? (y/n): n
+Is your number higher than 5? (y/n): n
+Is your number 3? (y/n): n
+Is your number higher than 3? (y/n): n
+Is your number 2? (y/n): n
+Is your number higher than 2? (y/n): n
+Is your number 1? (y/n): y
+See? I told you I'd guess it! In only 8 tries!
+Would you like to continue playing? (y/n): n
+Kevins-MacBook-Air-2:CS670 - Python kbuck$ 
