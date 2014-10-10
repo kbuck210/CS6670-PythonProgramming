@@ -1,0 +1,69 @@
+## CS672 - Python Programming
+## Homework 4 - Kevin Buckley
+## 10/10/14
+
+##
+## Modify Search to search over web crawler content:
+
+###############
+##  Task 1:  ##
+###############
+- Is there any better indexing criteria in the web crawler output?
+
+I used the web page title name, as it was unique for most pages. (attempted to use the
+alt-text on each image on the website, but was getting memory overruns because it was
+too much data…)
+
+#######################
+##  Task 2, 3, & 4   ##
+#######################
+- Implement existing indexer & searcher to index web crawler and file traverser data 
+  from pickle file into shelve, then search the shelve for the user input keywords.
+
+- Use the query string as input to the weather API, and if not returning an error, print
+  the current weather.
+
+output:
+#######
+
+###########
+## Output found in only web content:
+
+Python3 search_combine.py
+query:dr.
+Performing search for: {'dr.'}
+Current weather: Clouds
+Found at: http://www.newhaven.edu/library/Speakers/
+Found at: http://www.newhaven.edu/496224/
+Search execution time (ms): 135
+Kevins-MacBook-Air-2:Homework4 kbuck$ 
+
+###########
+## Output found in only file content:
+
+Kevins-MacBook-Air-2:Homework4 kbuck$ !!
+Python3 search_combine.py
+query:would and woods
+Performing AND search for: {'would', 'woods'}
+Found at: /Users/kbuck/Documents/School Stuff/CS670 - Python/Homework4/fortune15.log
+Found at: /Users/kbuck/Documents/School Stuff/CS670 - Python/Homework4/fortune20.txt
+Search execution time (ms): 185
+Kevins-MacBook-Air-2:Homework4 kbuck$ 
+
+###########
+## Output found in both file & web content:
+
+Kevins-MacBook-Air-2:Homework4 kbuck$ !!
+Python3 search_combine.py
+query:office or police
+Performing OR search for: {'police', 'office'}
+Current weather: Clouds
+Found at: http://www.newhaven.edu/OIT/incoming/
+Found at: http://www.newhaven.edu/OIT/policies/
+Found at: http://www.newhaven.edu/student
+Found at: http://www.newhaven.edu/OIT/safeconnect/
+Found at: /Users/kbuck/Documents/School Stuff/CS670 - Python/Homework4/fortune13.txt
+Found at: http://www.newhaven.edu/OIT/for
+Found at: http://www.newhaven.edu/OIT/connect/
+Search execution time (ms): 246
+Kevins-MacBook-Air-2:Homework4 kbuck$ 
