@@ -61,9 +61,9 @@ def search(shelved_file):
         count = 0
         for tok in tokens:
             if count > 0:
-                results |= s[tok]   # intersection with s[tok] value and self
+                results &= s[tok]   # intersection with s[tok] value and self
             else:
-                results.update(s[tok])   # union with s[tok] value and self
+                results |= s[tok]   # union with s[tok] value and self
 
             count += 1
         

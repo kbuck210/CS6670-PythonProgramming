@@ -11,6 +11,8 @@ import data_load
 import indexer
 import web_crawler
 
+### First 3 steps commented out post-web crawl, to not run it every time
+
 # Traverse the file structure to initialize the pickle
 #pickle_file = data_load.get_traversal_data()
 

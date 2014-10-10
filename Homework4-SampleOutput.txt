@@ -29,13 +29,12 @@ output:
 ###########
 ## Output found in only web content:
 
+Kevins-MacBook-Air-2:Homework4 kbuck$ !!
 Python3 search_combine.py
-query:dr.
-Performing search for: {'dr.'}
-Current weather: Clouds
-Found at: http://www.newhaven.edu/library/Speakers/
-Found at: http://www.newhaven.edu/496224/
-Search execution time (ms): 135
+query:students academics
+Performing AND search for: {'students', 'academics'}
+Found at: http://www.newhaven.edu/IEL/
+Search execution time (ms): 226
 Kevins-MacBook-Air-2:Homework4 kbuck$ 
 
 ###########
@@ -43,15 +42,15 @@ Kevins-MacBook-Air-2:Homework4 kbuck$
 
 Kevins-MacBook-Air-2:Homework4 kbuck$ !!
 Python3 search_combine.py
-query:would and woods
-Performing AND search for: {'would', 'woods'}
-Found at: /Users/kbuck/Documents/School Stuff/CS670 - Python/Homework4/fortune15.log
-Found at: /Users/kbuck/Documents/School Stuff/CS670 - Python/Homework4/fortune20.txt
-Search execution time (ms): 185
+query:about your
+Performing AND search for: {'your', 'about'}
+Found at: /Users/kbuck/Documents/School Stuff/CS670 - Python/Homework4/fortune1.txt
+Search execution time (ms): 262
 Kevins-MacBook-Air-2:Homework4 kbuck$ 
 
+
 ###########
-## Output found in both file & web content:
+## Output found in both file & web content: (also showing weather)
 
 Kevins-MacBook-Air-2:Homework4 kbuck$ !!
 Python3 search_combine.py
@@ -66,4 +65,15 @@ Found at: /Users/kbuck/Documents/School Stuff/CS670 - Python/Homework4/fortune13
 Found at: http://www.newhaven.edu/OIT/for
 Found at: http://www.newhaven.edu/OIT/connect/
 Search execution time (ms): 246
+Kevins-MacBook-Air-2:Homework4 kbuck$ 
+
+###########
+## Output only matching weather
+Kevins-MacBook-Air-2:Homework4 kbuck$ !!
+Python3 search_combine.py
+query:west haven, ct
+Performing AND search for: {'west', 'ct', 'haven,'}
+Current weather: Clouds
+Could not find search query in data.
+Search execution time (ms): 83
 Kevins-MacBook-Air-2:Homework4 kbuck$ 
