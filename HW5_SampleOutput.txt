@@ -1,0 +1,49 @@
+######################################
+##  Guess The Animal Sample Output  ##
+######################################
+Kevins-MacBook-Air-2:Homework5 kbuck$ !!
+ Python3 AnimalGuess.py
+I will give you 3 hints, guess what animal I am
+1: I have exceptional memory
+Who am I?:tiger
+Nope, try again!
+2: I am the largest land-living mammal in the world
+Who am I?:bat
+Nope, try again!
+3: I have ivory tusks and a trunk
+Who am I?:dog  
+Nope, try again!
+I'm out of hints! The answer is:  elephant
+I will give you 3 hints, guess what animal I am
+1: I am the biggest cat
+Who am I?:tiger
+You got it! I am  tiger
+I will give you 3 hints, guess what animal I am
+1: I use echo-location
+Who am I?:dolphin
+Nope, try again!
+2: I can fly
+Who am I?:bat
+You got it! I am  bat
+Kevins-MacBook-Air-2:Homework5 kbuck$ 
+
+
+#####################################
+#  Integer Division Sample Output  ##
+#####################################
+Kevins-MacBook-Air-2:Homework5 kbuck$ Python3 IntegerDivision.py
+Integer Divisions: (type 'q' to quit)
+12/3=4
+CORRECT!
+6/3=1
+INCORRECT!
+6/3=2
+CORRECT!
+6/2=3
+CORRECT!
+4/2=ee
+Please enter Integers Only!  invalid literal for int() with base 10: 'ee'
+12/4=3
+CORRECT!
+4/4=q
+Kevins-MacBook-Air-2:Homework5 kbuck$ 
